@@ -15,7 +15,7 @@ import br.com.alura.forum.modelo.Curso;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
-@AutoConfigureTestDatabase(replace = Replace.AUTO_CONFIGURED.NONE)
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE )
 @ActiveProfiles("test")
 public class CursoRepositoryTest {
 
